@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>First wireframe</title>
+    <style>
+        .div1{
+            border-width:2px;
+            border-color:red;
+            border-style:solid;
+            margin-top: 90px;
+            margin-left:400px;
+            margin-right:400px;
+            margin-bottom:50px;
+            padding:12px;
+            background-color: black; 
+            border-radius: 10px;
+        }
+        
+        ul{
+            margin:0;
+            padding:0;
+            overflow:hidden;
+            list-style-type: none;
+            background-color: green;
+        }
+        li{
+            float:left;
+        }
+        li a{
+            display:block;
+            text-decoration: none;
+            text-align: center;
+            padding-left: 12px;
+            padding-bottom: 10px;
+            padding-right: 12px;
+            padding-top: 10px;
+            color:white;
+            border-right: darkgreen;
+            border-width: 1px;
+            border-style: solid;
+        }
+        li a:hover{
+            color: tomato;
+            text-decoration: underline;
+            background-color: black;
+        }
+        img{
+            float:left;
+        }
+        input[type="text"],input[type="password"]{
+            pading:12px,20px;
+            width:100%;
+            margin-left: 0px;
+            margin-top: 12px;
+        }
+        body{
+            background-image: url(download1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    </head>
+    <body >
+        <div style="color: gold; font-size: large; font-weight: bold;background-color: red;"><br><br>
+            <marquee  direction="right">ROY ENTERPRISES</marquee><br><br></div>
+        <h2 ><img  src="work.png" height="30" width="50" alt="logo"></h2>
+         <ul>
+          <li><a  href="index.html">About us</a></li>
+          <li><a href="log_in.html">Log in</a></li>
+          <li><a href="log_out.html">Log out</a></li>
+          <li><a href="contact_us.html">Contact us</a></li>
+         </ul><br><br><br>
+        <div class="div1">
+            <h3 style="color:cornsilk">LOG-IN</h3>
+            <form action="first.php">
+            <p  style="font-size:25; color:cornsilk">User Name</p>
+            <input type="text" name="u_name" value="abc"><br><br>
+            <p  style="font-size:25; color:cornsilk">E-MAIL</p>
+            <input type="text" name="e_mail" value="xyz@gmail.com"><br><br>
+            <p style="font-size:25; color:cornsilk">Password</p>
+            <input type="password" name="password" value="xyz"><br><br>
+            <input type="submit" name="submit" value="submit" align="center">
+            <br><br>
+            <a style="color: red;" href="new.html">Do Not Have Account ?</a>
+            </form>
+        </div>
+        <footer style="background-color:green ; margin-bottom: 0px;margin-top: 100%; width: 100%;">
+            <p align="center"> COPYRIGHTS</p>   </footer>
+    </body>
+</html>
